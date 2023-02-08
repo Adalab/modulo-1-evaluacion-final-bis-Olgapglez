@@ -1,23 +1,30 @@
 .main {
   background-image: url(../images/hero-image.jpg);
   background-size: 180%;
+  background-repeat: space;
   background-position: -150px;
   height: 100vh;
   padding-left: 20px;
+}
 
   @media all and (min-width: 768px) {
+
+    .main{
     background-size: 175%;
     background-position: -300px;
     padding-left: 30px;
+    }
   }
 
   @media all and (min-width: 1200px) {
+    
+    .main{
     background-size: 140%;
     background-position: -300px;
     padding-left: 30px;
+    }
   }
 
-}
 
 .container {
   height: 108px;
