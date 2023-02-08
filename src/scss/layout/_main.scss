@@ -4,6 +4,19 @@
   background-position: -150px;
   height: 100vh;
   padding-left: 20px;
+
+  @media all and (min-width: 768px) {
+    background-size: 175%;
+    background-position: -300px;
+    padding-left: 30px;
+  }
+
+  @media all and (min-width: 1200px) {
+    background-size: 140%;
+    background-position: -300px;
+    padding-left: 30px;
+  }
+
 }
 
 .container {
@@ -11,6 +24,9 @@
   width: 161px;
   padding-top: 241px;
 
+  @media all and (min-width: 768px) {
+    padding-top: 350px;
+  }
 }
 
 .text {
@@ -19,11 +35,9 @@
   font-weight:800;
   text-transform: capitalize;
   font-size: 30px;
+
+  @media all and (min-width: 768px) {
+    font-size: 60px;
+  }
 }
 
-/* TABLET VERSION */
-@media all and (min-width: 768px) {}
-
-
-  /*DESKTOP VERSION*/
-@media all and (min-width: 1200px) {}

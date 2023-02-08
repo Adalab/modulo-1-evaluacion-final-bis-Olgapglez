@@ -60,11 +60,24 @@ table {
   background-position: -150px;
   height: 100vh;
   padding-left: 20px; }
+  @media all and (min-width: 768px) {
+    .main {
+      background-size: 175%;
+      background-position: -300px;
+      padding-left: 30px; } }
+  @media all and (min-width: 1200px) {
+    .main {
+      background-size: 140%;
+      background-position: -300px;
+      padding-left: 30px; } }
 
 .container {
   height: 108px;
   width: 161px;
   padding-top: 241px; }
+  @media all and (min-width: 768px) {
+    .container {
+      padding-top: 350px; } }
 
 .text {
   font-family: "Rubik", sans-serif;
@@ -72,9 +85,10 @@ table {
   font-weight: 800;
   text-transform: capitalize;
   font-size: 30px; }
+  @media all and (min-width: 768px) {
+    .text {
+      font-size: 60px; } }
 
-/* TABLET VERSION */
-/*DESKTOP VERSION*/
 .header {
   height: 112px;
   position: fixed;
@@ -84,6 +98,13 @@ table {
   display: flex;
   flex-direction: column;
   align-items: center; }
+  @media all and (min-width: 768px) {
+    .header {
+      height: 100px;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-left: 25px;
+      padding-right: 30px; } }
 
 .logo {
   height: 60px;
@@ -102,8 +123,6 @@ table {
   color: #252525;
   font-size: 16px; }
 
-/* TABLET VERSION */
-/*DESKTOP VERSION*/
 .footer {
   height: 90px;
   background-color: #252525;
@@ -120,8 +139,6 @@ table {
   margin: 0 auto;
   padding-top: 34px; }
 
-/* TABLET VERSION */
-/*DESKTOP VERSION*/
 .body {
   font-family: "Rubik", sans-serif; }
 
