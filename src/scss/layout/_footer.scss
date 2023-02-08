@@ -1,8 +1,25 @@
-.page__footer {
+.footer {
+  height: 90px;
+  background-color: $colorGreyDark;
   position: fixed;
-  left: 0;
+  width: 100%;
   bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+
 }
+
+.copywrite {
+  font-family: $font-main;
+  font-size: 16px;
+  color: $colorGreyMedium;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 34px;
+}
+
+/* TABLET VERSION */
+@media all and (min-width: 768px) {}
+
+
+  /*DESKTOP VERSION*/
+@media all and (min-width: 1200px) {}

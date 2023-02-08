@@ -1,0 +1,29 @@
+.main {
+  background-image: url(../images/hero-image.jpg);
+  background-size: 180%;
+  background-position: -150px;
+  height: 100vh;
+  padding-left: 20px;
+}
+
+.container {
+  height: 108px;
+  width: 161px;
+  padding-top: 241px;
+
+}
+
+.text {
+  font-family: $font-main;
+  color: white;
+  font-weight:800;
+  text-transform: capitalize;
+  font-size: 30px;
+}
+
+/* TABLET VERSION */
+@media all and (min-width: 768px) {}
+
+
+  /*DESKTOP VERSION*/
+@media all and (min-width: 1200px) {}
